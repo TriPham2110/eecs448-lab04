@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<!-- Reference: https://www.w3schools.com/html/tryit.asp?filename=tryhtml_form_radio -->
+<html>
+  <head>
+    <title> Exercise 2: Quiz </title>
+    <style>
+      form {
+        width: 700px;
+        border: 10px solid black;
+        padding: 50px;
+        margin: 0px auto;
+      }
+      div {
+        margin: 0px auto;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="Quiz.php" method="post">
+      <b>Question 1: Which song below is NOT in The Beatles' album "Abbey Road?"</b><br>
+      <input type="radio" name="question_1_songs" value="You Never Give Me Your Money"> You Never Give Me Your Money<br>
+      <input type="radio" name="question_1_songs" value="Here Comes The Sun"> Here Comes The Sun<br>
+      <input type="radio" name="question_1_songs" value="Sun Queen"> Sun Queen<br>
+      <input type="radio" name="question_1_songs" value="Golden Slumbers"> Golden Slumbers<br>
+      <br><br><br>
+
+      <b>Question 2: Which song below is in Daft Punk's album "Alive 2007?"</b><br>
+      <input type="radio" name="question_2_songs" value="Voyager / One More Time"> Voyager / One More Time<br>
+      <input type="radio" name="question_2_songs" value="One More Time / Aerodynamic"> One More Time / Aerodynamic<br>
+      <input type="radio" name="question_2_songs" value="Veridis Quo / Voyager"> Veridis Quo / Voyager<br>
+      <input type="radio" name="question_2_songs" value="Digital Love / Aerodynamic"> Digital Love / Aerodynamic<br>
+      <br><br><br>
+
+      <b>Question 3: Which song below is NOT in Queen's album "The Works?"</b><br>
+      <input type="radio" name="question_3_songs" value="Bohemian Rhapsody"> Bohemian Rhapsody<br>
+      <input type="radio" name="question_3_songs" value="I Want To Break Free"> I Want To Break Free<br>
+      <input type="radio" name="question_3_songs" value="Radio Ga Ga"> Radio Ga Ga<br>
+      <input type="radio" name="question_3_songs" value="Tear It Up"> Tear It Up<br>
+      <br><br><br>
+
+      <b>Question 4: Which song below is in ABBA's album "Arrival?"</b><br>
+      <input type="radio" name="question_4_songs" value="Dancing Queen"> Dancing Queen<br>
+      <input type="radio" name="question_4_songs" value="Super Trouper"> Super Trouper<br>
+      <input type="radio" name="question_4_songs" value="The Winter Takes It All"> The Winter Takes It All<br>
+      <input type="radio" name="question_4_songs" value="Happy New Year"> Happy New Year<br>
+      <br><br><br>
+
+      <b>Question 5: Which song below is NOT in Electric Light Orchestra' album "Out of the Blue?"</b><br>
+      <input type="radio" name="question_5_songs" value="Mr. Blue Sky"> Mr. Blue Sky<br>
+      <input type="radio" name="question_5_songs" value="Sweet Talkin' Woman"> Sweet Talkin' Woman<br>
+      <input type="radio" name="question_5_songs" value="Turn to Stone"> Turn to Stone<br>
+      <input type="radio" name="question_5_songs" value="Telephone Line"> Telephone Line<br>
+      <br><br><br>
+
+      <div>
+        <input type="submit" value="Submit Quiz"><br>
+      </div>
+    </form>
+  </body>
+</html>
