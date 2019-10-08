@@ -1,0 +1,56 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background-image: url(https://wallpaperaccess.com/full/48490.jpg);
+  background-size: cover;
+}
+
+form {
+  width: 1200px;
+  border: 5px dotted;
+  margin: 0px auto;
+	background: rgba(0, 0, 0, 0.3);
+	padding: 40px;
+	margin-top: 150px;
+	color: #32CD32;
+	font-size: 20px;
+}
+
+strong {
+  color: #00FA9A;
+}
+
+b {
+  font-size: 26px;
+  color: #00FA9A;
+}
+
+div {
+  margin: 0px auto;
+  text-align: center;
+}
+
+input[type="password"],input[type="number"],input[type="email"] {
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid;
+    outline: none;
+    color: white;
+}
+
+input[type="reset"],input[type="submit"] {
+    font-weight: bold;
+    background: transparent;
+    color: white;
+    cursor: default;
+}
+
+input[type="reset"]:hover,input[type="submit"]:hover {
+    background: white;
+    color: #00FA9A;
+}
+
+::placeholder {
+  color: white;
+  opacity: 1;
+}

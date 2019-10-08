@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<!-- Reference: https://www.w3schools.com/w3css/w3css_input.asp -->
+<html>
+	<head>
+		<title> Web Store </title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	</head>
+	<body>
+		<form action="customerBackend.php" method="POST" class="w3-container" onsubmit="validateInput()">
+			<div>
+				<h1><strong> Welcome to Flaʊr Shop </strong></h1>
+			</div>
+			<b>Username:</b>
+			<input class="w3-input" type="email" name="username" id="username" placeholder="Enter username@domain.com"><br>
+			<b>Password:</b>
+			<input class="w3-input" type="password" name="password" id="password" placeholder="Enter password"><br><br>
+
+			<div class="w3-third">
+				<b>Item 1: Tulips</b><br>
+				Quantity: <input type="number" name="tulips" id="tulips" min=0 value=0><br>
+			</div>
+
+			<div class="w3-third">
+				<b>Item 2: Roses</b><br>
+				Quantity: <input type="number" name="roses" id="roses" min=0 value=0><br>
+			</div>
+
+			<div class="w3-third">
+				<b>Item 3: Sunflowers</b><br>
+				Quantity: <input type="number" name="sunflowers" id="sunflowers" min=0 value=0><br><br><br>
+			</div>
+
+			<div>
+				<b>Shipping options</b> <br>
+				<input type="radio" name="shippingOptions" id="free" value=0> 7-day shipping (free)<br>
+				<input type="radio" name="shippingOptions" id="$50" value=50> Overnight express ($50)<br>
+				<input type="radio" name="shippingOptions" id="$5" value=5> 3-day shipping ($5)<br><br><br>
+			</div>
+
+			<div>
+				<input type="reset" value="Reset order">
+				<input type="submit" value="Submit order"><br><br>
+			</div>
+		</form>
+	</body>
+	<script type="text/javascript" src="formChecker.js"></script>
+</html>
